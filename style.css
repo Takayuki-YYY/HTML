@@ -1,0 +1,23 @@
+body{background-color:#fffcdb;}
+h1{
+ padding:0.5em;                 /*文字周りの余白*/
+ color:$494949;                 /*文字色*/
+ background:#fffaf4;            /*背景*/
+ border-left:solid 5px #ffd778; /*左線（実線 太さ 色）*/
+}
+h2{
+ border-bottom:double 5px #ffd778;
+}
+table{
+ border-collapse:collapse;      /*セルの線を重ねる*/
+}
+th,td{
+ border:solid 1px;              /*枠線指定*/
+ padding:10px;                  /*予約指定*/
+}
+th{
+ background-color:#e6e6fa;      /*背景色指定*/
+ color:#000080;
+}
+.yellow_marker{
+ background:linear-gradient(to bottom,transparent 60%,#ffff66 60%);}
